@@ -1,0 +1,40 @@
+{
+  "identifier" : "poolchemlog",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "poolchemlog_group",
+      "localizations" : [],
+      "name" : "Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "poolchemlog_pro_monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlock unlimited entries and pro features.",
+              "displayName" : "Pool Chem Log Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.poolchemlog.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Pool Chem Log Pro Monthly",
+          "subscriptionGroupID" : "poolchemlog_group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
